@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.n8M4.fullbright.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "fullbright.refmap.json",
+  "mixins": [
+    "FullbrightMixin"
+  ],
+  "client": [
+    "UnitDoubleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
